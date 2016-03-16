@@ -39,7 +39,7 @@ var writeBerries = function (berries) {
 
 
   berries.forEach(function (berry) {
-    document.write('<h2>Blueberries</h2>');
+    document.write('<h2>' + berry.name + '</h2>');
     document.write('<dl>');
 
     document.write('<dt>Grows on a shrub?</dt>');
